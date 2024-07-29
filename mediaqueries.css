@@ -9,13 +9,16 @@
 
 }
 
-
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px; 
+        z-index: 10;
     } 
     #skills, .skills-details-container {
         margin-top: 2rem;
