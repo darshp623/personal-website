@@ -105,18 +105,30 @@
 
 
 @media (max-width: 768px) {
+    body {
+        position: relative;
+    }
+
     #hamburger-nav {
-        position: fixed;
+        position: absolute;
         top: 20px;
         right: 20px;
         z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 40px);
     }
 
-    #hamburger-nav .logo {
+    .hamburger-logo {
         position: absolute;
         top: 20px;
         left: 20px;
         z-index: 1001;
+    }
+
+    .hamburger-menu {
+        z-index: 1000;
     }
 
     #profile {
