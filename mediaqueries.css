@@ -102,3 +102,53 @@
         display: none;
     }
 }
+
+@media (max-width: 768px) {
+    body {
+        margin: 0; 
+        padding: 0; 
+    }
+
+    #profile .section__text {
+        font-size: 18px; 
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    .btn {
+        width: 100%; 
+        font-size: 16px; 
+        padding: 12px; 
+    }
+
+    img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .section__text__p1, .section__text__p2 {
+        font-size: 16px; 
+        padding: 5px; 
+    }
+
+    #socials-container .icon {
+        width: 30px; 
+        height: 30px; 
+        margin: 5px; 
+    }
+
+    #about, #skills, #projects {
+        padding: 20px; 
+    }
+
+    .hr-line {
+        display: none; 
+    }
+
+    #hamburger-nav {
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        z-index: 1000; 
+    }
+}
