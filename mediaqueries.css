@@ -9,16 +9,13 @@
 
 }
 
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
-        position: absolute;
-        top: 20px;
-        right: 20px; 
-        z-index: 10;
     } 
     #skills, .skills-details-container {
         margin-top: 2rem;
@@ -98,40 +95,6 @@
     .text-container {
         text-align: justify;
     }
-    .hr-line {
-        display: none;
-    }
-}
-
-
-@media (max-width: 768px) {
-    body {
-        position: relative;
-    }
-
-    #hamburger-nav {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        z-index: 1000;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: calc(100% - 40px);
-    }
-
-    .hamburger-logo {
-        display: none;
-    }
-
-    .hamburger-menu {
-        z-index: 1000;
-    }
-
-    #profile {
-        padding-top: 100px;
-    }
-
     .hr-line {
         display: none;
     }
