@@ -53,6 +53,10 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+        z-index: 1;
+    }
+    #hamburger-nav {
+        z-index: 10; 
     }
     article {
         font-size: 1rem;
