@@ -120,6 +120,10 @@
         width: calc(100% - 40px);
     }
 
+    .hamburger-logo {
+        display: none;
+    }
+
     .hamburger-menu {
         z-index: 1000;
     }
