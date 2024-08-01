@@ -56,10 +56,6 @@
         height: 83vh;
         margin-bottom: 0;
     }
-    #hamburger-nav {
-        display: flex;
-        z-index: 999;
-    } 
     article {
         font-size: 1rem;
     }
