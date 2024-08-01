@@ -76,6 +76,8 @@ a:hover {
     cursor: default;
 }
 
+/*hamburger menu */
+
 #hamburger-nav {
     display: none;
 }
