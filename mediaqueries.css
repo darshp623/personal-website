@@ -12,7 +12,6 @@
 
 }
 
-
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -51,10 +50,10 @@
 
 @media screen and (max-width: 768px) {
     #contact, footer {
-        height: auto;
+        height: 40vh;
     }
     #profile {
-        height: auto;
+        height: 83vh;
         margin-bottom: 0;
     }
     #hamburger-nav {
@@ -69,7 +68,7 @@
         margin-bottom: 2rem;
     }
     .about-containers, .contact-info-upper-container, .btn-container {
-        flex-wrap: wrap;
+        flex-wrap:  wrap;
     }
     .contact-info-container {
         margin: 0;
@@ -105,25 +104,4 @@
     .hr-line {
         display: none;
     }
-
-    @media screen and (max-width: 480px) {
-        body {
-            font-size: 0.875rem;
-        }
-        .nav-links {
-            font-size: 1rem;
-        }
-        .section__text__p2 {
-            font-size: 1rem;
-        }
-        .title {
-            font-size: 1.5rem;
-        }
-        .btn {
-            padding: 0.5rem;
-            width: 100%;
-            text-align: center;
-        }
-    }
-    
 }
