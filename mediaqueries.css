@@ -55,6 +55,8 @@
     #profile {
         height: 83vh;
         margin-bottom: 0;
+        position: relative;
+        z-index: -1;
     }
     article {
         font-size: 1rem;

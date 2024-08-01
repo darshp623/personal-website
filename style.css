@@ -185,6 +185,8 @@ section {
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    z-index:-1;
+    position: relative;
     margin: auto 0;
 }
 
