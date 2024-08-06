@@ -409,6 +409,7 @@ section {
 /* contact */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -440,6 +441,14 @@ section {
 
 .contact-icon {
     cursor: default;
+}
+
+.up-arrow {
+    transform: rotate(180deg);
+} 
+
+.up-arrow:hover {
+    transform: rotate(180deg) scale(1.2);
 }
 
 /* footer */
