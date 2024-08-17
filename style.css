@@ -85,6 +85,7 @@ a:hover {
 .hamburger-menu {
     position: relative;
     display: inline-block;
+    z-index: 10;
 }
 
 .hamburger-icon {
