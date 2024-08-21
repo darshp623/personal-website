@@ -9,6 +9,9 @@
     #contact, #projects {
         height: fit-content;
     }
+    .text-container {
+        font-size: 1rem;
+    }
 
 }
 
@@ -42,6 +45,7 @@
     .about-containers {
         margin-top: 0;
     }
+
     .hr-line {
         display: none;
     }
@@ -112,7 +116,7 @@
         position: relative;
     }
     #profile {
-        height: 65vh;
+        height: 70vh;
     }
     #about {
         height: 105vh;

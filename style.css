@@ -306,6 +306,7 @@ section {
 
 .about-containers, .about-details-container {
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .about-pic {
@@ -326,6 +327,10 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
     border-color: rgb(0, 225, 255);
     text-align: center;
+}
+
+.text-container {
+    font-size: 1.4rem;
 }
 
 .section-container {
