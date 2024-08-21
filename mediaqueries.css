@@ -112,12 +112,11 @@
         position: relative;
     }
     #profile {
-        height: 60vh;
+        height: 65vh;
     }
     #about {
         height: 105vh;
     }
-
     #skills {
         height: 205vh;
     }
