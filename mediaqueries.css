@@ -102,3 +102,24 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: 40vh;
+    }
+    #profile, #about, #skills, #projects {
+        margin-bottom: 0;
+        position: relative;
+    }
+    #profile {
+        height: 60vh;
+    }
+    #about {
+        height: 105vh;
+    }
+
+    #skills {
+        height: 205vh;
+    }
+
+}
